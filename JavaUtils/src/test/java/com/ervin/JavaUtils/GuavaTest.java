@@ -2,16 +2,16 @@ package com.ervin.JavaUtils;
 
 import com.google.common.base.CaseFormat;
 import com.google.common.base.Joiner;
+import com.google.common.base.Preconditions;
 import com.google.common.base.Splitter;
-import com.google.common.collect.Lists;
+import com.google.common.collect.*;
 
 import com.google.common.primitives.Ints;
 import org.apache.commons.lang3.StringUtils;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class GuavaTest {
@@ -66,17 +66,50 @@ public class GuavaTest {
     @Test
     public void test6(){
         // Multiset
+        // list元素可重复有序
+        // set元素不可重复无序
+        // multiset元素可重复无序
+        Multiset<String> multiset = HashMultiset.create();
+        multiset.add("a");
+        multiset.add("b");
+        multiset.add("a");
+        System.out.println(multiset);
+        Set<Multiset.Entry<String>> entries = multiset.entrySet();
+        for(Multiset.Entry<String> entry:entries){
+            System.out.println(entry.getElement()+","+entry.getCount());
+        }
+        Set<String> elementSet = multiset.elementSet();
+        for(String ele:elementSet){
+            System.out.println(ele);
+        }
     }
     @Test
     public void test7(){
-        // HashMultimap
+        // HashMultimap替代原生Map<String,Collection<String>>
+        Multimap<String,String> multimap = HashMultimap.create();
+        multimap.put("a","1");
+        multimap.put("a","2");
+        Collection<String> aVal = multimap.get("a");
+        System.out.println(aVal);
+        // 是否包含某kv
+        System.out.println(multimap.containsEntry("a","4"));
+        // 转为原生map
+        Map<String,Collection<String>> jdkMap = multimap.asMap();
+        System.out.println(jdkMap);
     }
     @Test
     public void test8(){
-        // ImmutableList
+        // ImmutableList不可变集合
+        ImmutableList<Object> immutableList= ImmutableList.builder().add("aa").build();
+        System.out.println(immutableList);
+        // list2 = Collections.unmodifiableList(list),list改变list2也会改变
     }
     @Test
     public void test9(){
-        // Preconditions
+        // Preconditions: 校验+抛出异常
+        String param = null;
+        // Preconditions.checkNotNull(param,"参数不能为空");
+        // expression为false则抛异常
+        // Preconditions.checkArgument(param!=null,"参数不能为空");
     }
 }

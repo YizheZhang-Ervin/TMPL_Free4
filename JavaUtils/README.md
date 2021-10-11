@@ -17,9 +17,14 @@
 - CaseFormat
 - Lists
 - Ints,Floats,Longs
-- Multiset
-- HashMultimap
-- ImmutableList
+- Multiset: 如HashMultiset
+- Multimap: 如HashMultimap
+- ImmutableList/ImmutableSet等
 - Preconditions
 
 3. Spring工具类
+- ClassUtils
+- ReflectionUtils
+- BeanUtils
+- FileCopyUtils
+- GenericTypeResolver
