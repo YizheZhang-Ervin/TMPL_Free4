@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TMPL_JavaUtils" />
+        <module name="TMPL_JavaTools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TMPL_JavaUtils" target="1.8" />
+      <module name="TMPL_JavaTools" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="TMPL_JavaUtils" options="-parameters" />
+      <module name="TMPL_JavaTools" options="-parameters" />
     </option>
   </component>
 </project>
