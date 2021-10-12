@@ -7,6 +7,8 @@ import java.net.Socket;
 /*
     创建BS版本TCP服务器
  */
+// http://127.0.0.1:8080/web/index.html
+
 public class TCPServer {
     public static void main(String[] args) throws IOException {
         //创建一个服务器ServerSocket,和系统要指定的端口号
@@ -24,11 +26,12 @@ public class TCPServer {
 
         //把is网络字节输入流对象,转换为字符缓冲输入流
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
-        //把客户端请求信息的第一行读取出来 GET /11_Net/web/index.html HTTP/1.1
+        //把客户端请求信息的第一行读取出来 GET /xx/index.html HTTP/1.1
         String line = br.readLine();
-        //把读取的信息进行切割,只要中间部分 /11_Net/web/index.html
+        System.out.println(line);
+        //把读取的信息进行切割,只要中间部分 /xx/index.html
         String[] arr = line.split(" ");
-        //把路径前边的/去掉,进行截取 11_Net/web/index.html
+        //把路径前边的/去掉,进行截取 xx/index.html
         String htmlpath = arr[1].substring(1);
 
         //创建一个本地字节输入流,构造方法中绑定要读取的html路径

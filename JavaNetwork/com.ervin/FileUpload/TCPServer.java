@@ -12,7 +12,7 @@ import java.net.Socket;
 
     明确:
         数据源:客户端上传的文件
-        目的地:服务器的硬盘 d:\\upload\\1.jpg
+        目的地:服务器的硬盘 E:\\upload\\1.jpg
 
     实现步骤:
         1.创建一个服务器ServerSocket对象,和系统要指定的端口号
@@ -35,7 +35,7 @@ public class TCPServer {
         //3.使用Socket对象中的方法getInputStream,获取到网络字节输入流InputStream对象
         InputStream is = socket.getInputStream();
         //4.判断d:\\upload文件夹是否存在,不存在则创建
-        File file =  new File("d:\\upload");
+        File file =  new File("E:\\upload");
         if(!file.exists()){
             file.mkdirs();
         }
