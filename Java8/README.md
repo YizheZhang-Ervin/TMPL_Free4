@@ -1,0 +1,61 @@
+# Java8
+1. Lambda
+  - (1)引用
+    - 函数引用
+      - 对象的引用 :: 实例方法名
+      - 类名 :: 静态方法名
+      - 类名 :: 实例方法名
+    - 构造器引用
+      - 类名 :: new
+    - 数组引用
+      - 类型[] :: new
+  - (2)核心函数式接口
+    - java.util.function.Consumer
+    - java.util.function.Function
+    - java.util.function.Predicate
+    - java.util.function.Supplier
+  
+2. Stream
+  - (1)创建
+    - xxCollection.stream() 与 xxCollection.parallelStream()
+    - Arrays.stream(数组流);
+    - Stream.of()
+    - 无限流
+      - Stream.iterate().limit()
+      - Stream.generate().limit()
+  - (2)中间操作
+    - 内部迭代
+      - xxCollection.filter()
+      - xxCollection.forEach()
+    - 外部迭代
+      - xxCollection.iterator()
+    - 筛选与切片
+      - filter
+      - limit
+      - skip(n)
+      - distinct
+    - 映射
+      - map
+      - flatMap
+    - 排序
+      - sorted()
+      - sorted(Comparator com)
+  - (3)终止
+    - allMatch——检查是否匹配所有元素
+    - anyMatch——检查是否至少匹配一个元素
+    - noneMatch——检查是否没有匹配的元素
+    - findFirst——返回第一个元素
+    - findAny——返回当前流中的任意元素
+    - count——返回流中元素的总个数
+    - max——返回流中最大值
+    - min——返回流中最小值
+    - reduce(T identity, BinaryOperator) / reduce(BinaryOperator)
+    - collect(Collectors.方法)
+      - toList/toSet/toCollection
+      - maxBy/minBy/summingDouble/averagingDouble/counting/summarizingDouble
+      - groupingBy 分组、多级分组
+      - partitioningBy 分区
+      - joining 合并
+      - reducing
+  
+3. 其他
