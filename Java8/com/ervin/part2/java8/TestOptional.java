@@ -19,7 +19,7 @@ public class TestOptional {
 	
 	@Test
 	public void test4(){
-		Optional<Employee> op = Optional.of(new Employee(101, "张三", 18, 9999.99));
+		Optional<Employee> op = Optional.of(new Employee(101, "abc", 18, 9999.99));
 		
 		Optional<String> op2 = op.map(Employee::getName);
 		System.out.println(op2.get());
@@ -36,7 +36,7 @@ public class TestOptional {
 			System.out.println(op.get());
 		}
 		
-		Employee emp = op.orElse(new Employee("张三"));
+		Employee emp = op.orElse(new Employee("abc"));
 		System.out.println(emp);
 		
 		Employee emp2 = op.orElseGet(() -> new Employee());
@@ -77,13 +77,13 @@ public class TestOptional {
 			}
 		}
 		
-		return "苍老师";
+		return "ccc";
 	}
 	
 	//运用 Optional 的实体类
 	@Test
 	public void test6(){
-		Optional<Godness> godness = Optional.ofNullable(new Godness("林志玲"));
+		Optional<Godness> godness = Optional.ofNullable(new Godness("bbb"));
 		
 		Optional<NewMan> op = Optional.ofNullable(new NewMan(godness));
 		String name = getGodnessName2(op);
@@ -93,7 +93,7 @@ public class TestOptional {
 	public String getGodnessName2(Optional<NewMan> man){
 		return man.orElse(new NewMan())
 				  .getGodness()
-				  .orElse(new Godness("苍老师"))
+				  .orElse(new Godness("ddd"))
 				  .getName();
 	}
 }

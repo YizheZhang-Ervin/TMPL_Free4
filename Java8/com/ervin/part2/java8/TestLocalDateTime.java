@@ -115,7 +115,7 @@ public class TestLocalDateTime {
 	public void test2(){
 		Instant ins = Instant.now();  //默认使用 UTC 时区
 		System.out.println(ins);
-		
+		// 带偏移量(从1970开始计算时间)
 		OffsetDateTime odt = ins.atOffset(ZoneOffset.ofHours(8));
 		System.out.println(odt);
 		

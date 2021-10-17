@@ -43,7 +43,7 @@ public class TestForkJoin {
 	@Test
 	public void test3(){
 		long start = System.currentTimeMillis();
-		
+		// 生成连续的数
 		Long sum = LongStream.rangeClosed(0L, 10000000000L)
 							 .parallel()
 							 .sum();
