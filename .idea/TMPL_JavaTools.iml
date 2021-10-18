@@ -25,6 +25,22 @@
       <sourceFolder url="file://$MODULE_DIR$/JavaNetwork" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Java8" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JavaBasic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/BehavioralPattern/pattern-chain-of-responsibility/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/BehavioralPattern/pattern-command/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/BehavioralPattern/pattern-interpreter/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/BehavioralPattern/pattern-iterator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/BehavioralPattern/pattern-mediator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/BehavioralPattern/pattern-memento/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/BehavioralPattern/pattern-observer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/BehavioralPattern/pattern-state/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/BehavioralPattern/pattern-strategy/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/BehavioralPattern/pattern-template-method/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/BehavioralPattern/pattern-visitor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/CreationalPattern/pattern-abstract-factory/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/CreationalPattern/pattern-builder/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/CreationalPattern/pattern-factory-method/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/CreationalPattern/pattern-prototype/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/CreationalPattern/pattern-singleton/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

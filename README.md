@@ -18,22 +18,22 @@
 15. XML与JSON (见JavaBasic)
 16. JDBC (见JavaBasic)
 17. 函数式编程 (见Java8)
-18. 设计模式 (暂无)
+18. 设计模式 (见JavaDesignPattern)
 19. Web开发 (暂无)
 20. Spring (见Spring)
 21. Spring Boot (见Spring)
 22. Spring Cloud (见Spring)
 
-## JavaUtils (完善中)
+### JavaUtils (完善中)
 - Apache Commons
 - Google Guava
 - Spring
 - 其他核心类
 
-## Java Network
+### Java Network
 - Socket / ServerSocket
 
-## Java 8
+### Java 8
 - Lambda
 - Stream
 - Optional
@@ -41,7 +41,7 @@
 - Date
 - Annotation
 
-## Java Basic
+### Java Basic
 - 反射
 - IO
 - 单元测试
@@ -49,11 +49,16 @@
 - XML与JSON
 - JDBC
 
-## Spring (完善中)
+### Spring (完善中)
 - Spring
 - Spring Boot
 - Spring Cloud
 
-## JavaThread (完善中)
+### JavaThread (完善中)
 
-## JavaDataStructure (完善中)
+### JavaDataStructure (完善中)
+
+### JavaDesignPattern
+- Creational Pattern
+- Structural Pattern
+- Behavioral Pattern
