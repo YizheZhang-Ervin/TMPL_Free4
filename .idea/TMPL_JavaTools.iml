@@ -41,6 +41,10 @@
       <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/CreationalPattern/pattern-factory-method/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/CreationalPattern/pattern-prototype/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JavaDesignPattern/CreationalPattern/pattern-singleton/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaMaven/maven-hello/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaMaven/maven-hello/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaMaven/maven-plugin/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaMaven/maven-wrapper/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

@@ -13,7 +13,7 @@
 10. 正则表达式 (暂无)
 11. 加密安全 (见JavaBasic)
 12. 多线程(见JavaThread)
-13. Maven (暂无)
+13. Maven (JavaMaven)
 14. 网络编程 (见JavaNetwork)
 15. XML与JSON (见JavaBasic)
 16. JDBC (见JavaBasic)
@@ -62,3 +62,7 @@
 - Creational Pattern
 - Structural Pattern
 - Behavioral Pattern
+
+### JavaMaven
+- plugin
+- wrapper
