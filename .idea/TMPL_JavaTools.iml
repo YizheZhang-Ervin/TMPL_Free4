@@ -45,6 +45,8 @@
       <sourceFolder url="file://$MODULE_DIR$/JavaMaven/maven-hello/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/JavaMaven/maven-plugin/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JavaMaven/maven-wrapper/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaDataStructure/Collections" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaLibs" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
