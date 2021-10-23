@@ -45,7 +45,17 @@
 - 反射
 
 ### JavaDataStructure (完善中)
-- Collections(List/Set/Map)
+- Collections
+  - List
+  - Map
+  - Properties
+  - Set
+  - Queue
+  - Deque
+  - PriorityQueue
+  - Stack
+  - Iterator
+  - Collections
 
 ### JavaDesignPattern
 - Creational Pattern
