@@ -20,9 +20,9 @@
 17. 函数式编程 (见Java8)
 18. 设计模式 (见JavaDesignPattern)
 19. Web开发 (无)
-20. Spring (见Spring.spring)
-21. Spring Boot (见Spring.springBoot)
-22. Spring Cloud (见Spring.springCloud)
+20. Spring (无)
+21. Spring Boot (无)
+22. Spring Cloud (无)
 
 ### Java 8
 - Lambda
@@ -85,8 +85,3 @@
 - Google Guava
 - Spring
 - 其他核心类
-
-### Spring (完善中)
-- Spring
-- Spring Boot
-- Spring Cloud
