@@ -10,7 +10,7 @@ public class MapMain {
 		// put
 		// containsKey
 		// keySet()
-		// entrySet()
+		// entrySet() / getKey() / getValue()
 		// HashMap初始化时默认的数组大小只有16，hashCode()获取哈希值
 //		int index = key.hashCode() & 0xf; // 0xf = 15
 		test1();

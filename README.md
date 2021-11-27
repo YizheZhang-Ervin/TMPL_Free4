@@ -78,7 +78,47 @@
 ### Java Network
 - Socket / ServerSocket
 
-### JavaThread (完善中)
+### JavaThread
+- Thread的start/run/sleep/yield/join/interrupt
+- Object的wait/notify/notifyAll
+- LockSupport的park/unpark
+- synchronized
+- ReentrantLock + condition/await/signal
+- volatile
+- cas
+  - 原子整数AtomicInteger
+  - 原子引用 AtomicReference/AtomicStampedReference/AtomicMarkableReference
+  - 原子数组AtomicIntegerArray
+  - 原子更新器AtomicReferenceFieldUpdater
+  - 原子累加器LongAdder/LongAccumulator
+  - unsafe
+- 不可变对象 + final
+- 线程池
+  - ThreadPoolExecutor
+  - ScheduledThreadPoolExecutor
+  - fork/join
+  - aqs
+    - reentrantlock
+    - reentrantreadwritelock
+    - stampedlock
+    - semaphore
+    - countdownlatch
+    - future
+    - cyclicbarrier
+- 线程安全类    
+  - concurrenthashmap
+  - linkedblockingqueue
+  - concurrentlinkedqueue
+  - copyonwritearraylist
+- 设计模式
+  - 两阶段终止
+  - 保护性暂停
+  - 生产者消费者
+  - 固定运行顺序
+  - 交替输出
+  - 犹豫模式
+  - 享元模式
+  - 工作线程
 
 ### JavaUtils
 - Apache Commons
