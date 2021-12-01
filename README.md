@@ -79,37 +79,54 @@
 - Socket / ServerSocket
 
 ### JavaThread
-- Thread的start/run/sleep/yield/join/interrupt
-- Object的wait/notify/notifyAll
-- LockSupport的park/unpark
+- Thread
+  - run/start/setname/join/getid/getname/getpriority/getstate
+  - isinterrupted/isalive/interrupted/interrupt/currentthread/sleep/yield
+- futuretask
+  - get
+- LockSupport
+  - park/unpark/setdaemon
 - synchronized
-- ReentrantLock + condition/await/signal
+  - wait/notify/notifyall
 - volatile
 - cas
-  - 原子整数AtomicInteger
+  - 原子整数AtomicInteger/atomicinteger/atomiclong
   - 原子引用 AtomicReference/AtomicStampedReference/AtomicMarkableReference
-  - 原子数组AtomicIntegerArray
-  - 原子更新器AtomicReferenceFieldUpdater
+  - 原子数组AtomicIntegerArray/atomiclongarray/atomicreferencearray
+  - 原子更新器AtomicReferenceFieldUpdater/atomicintegerfieldupdater/atomiclongdieldupdater
   - 原子累加器LongAdder/LongAccumulator
+    - increment
+  - 原子整数atomicboolean
   - unsafe
+    - setaccessible/get.objectfieldoffset/get.compareandswap
 - 不可变对象 + final
 - 线程池
   - ThreadPoolExecutor
+    - newfixedthreadpool/newcachedthreadpool/newsinglethreadexecutor
+      - execute/submit/invokeAll/invokeAny/shutdown/shutdownnow/isshutdown/isterminated/awaittermination
   - ScheduledThreadPoolExecutor
+    - schedule/scheduleatfixedrate/schedulewithfixeddelay
   - fork/join
+    - invoke(recursivetask)
   - aqs
-    - reentrantlock
-    - reentrantreadwritelock
-    - stampedlock
+    - tryacquire/tryrelease/tryacquireshared/tryreleaseshared/isheldexclusively
+    - ReentrantLock
+      - lock/unlock/lockinterruptibly/trylock
+      - newcondition/await/signal/signalall
+      - reentrantreadwritelock(readlock/writelock)
+      - stampedlock(unlockread(stamp)/unlockwrite(stamp))
     - semaphore
+      - acquire/release
     - countdownlatch
     - future
     - cyclicbarrier
+      - await
 - 线程安全类    
-  - concurrenthashmap
-  - linkedblockingqueue
-  - concurrentlinkedqueue
-  - copyonwritearraylist
+  - Hashtable/vector
+  - synchronizedmap/synchronizedlist
+  - blocking(linkedblockingqueue/arrayblckingqueue/concurrentlinkedqueue)
+  - concurrent(concurrenthashmap/concurrentlinkedqueue)
+  - copyonwriter(copyonwritearraylist)
 - 设计模式
   - 两阶段终止
   - 保护性暂停
