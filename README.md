@@ -44,7 +44,7 @@
 - XML与JSON
 - 反射
 
-### JavaDataStructure (完善中)
+### JavaDataStructure
 - Collections
   - List
   - Map
@@ -56,6 +56,16 @@
   - Stack
   - Iterator
   - Collections
+- Algorithms
+  - graph
+  - heap
+  - linear
+  - priority
+  - sort
+  - symbol
+  - test
+  - tree
+  - uf
 
 ### JavaDesignPattern
 - Creational Pattern
